@@ -1,0 +1,109 @@
+.home::before {
+  content: "";
+  position: absolute;
+ 
+  z-index: -1;
+  background: url("../assets/bgvb.jpg") no-repeat center center/cover;
+  height: 94vh;
+  width: 100%;
+  opacity: 0.8;
+}
+.home {
+  position: relative;
+    margin-top: 15vh; 
+    height: 94vh;
+  display: flex;
+}
+.home h1 {
+  font-size: 3.5rem;
+  color: rgb(1, 8, 124);
+  font-weight: 700;
+}
+.home h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: darkblue;
+  text-align: center;
+}
+.leftHome {
+  width: 55%;
+  /* height: 60vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  height: 80vh;
+  width: 85%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+.rightHome {
+  text-align: center;
+  width: 40%;
+}
+.up {
+  display: flex;
+  justify-content: space-between;
+}
+.upleft {
+  display: flex;
+  padding: .3rem 0;
+  width: 49.5%;
+  align-items: center;
+  color: white;
+  background-color: #213d77;
+}
+
+.upleft p{
+    margin-left: 5rem;
+    font-weight: 700;
+}
+
+.mid{
+    text-align: center;
+    padding: 2rem 0;
+    
+}
+
+.low {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section{
+    /* height: 90vh; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+   align-items: center;
+   
+}
+.sectionUp{
+    height: 30vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sectionCard{
+   
+    display: flex;
+    width: 60%;
+    height: 60vh;
+    column-gap: 10rem;
+    row-gap: 4rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.bigCard{
+    margin: 4rem 2rem;
+    display: flex;
+    width: 80%;
+    gap: 2rem;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+}

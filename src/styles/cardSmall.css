@@ -1,0 +1,13 @@
+.cardSmall{
+    background-color: rgb(169, 104, 25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 4rem;
+}
+.cardSmall img:hover{
+cursor: pointer;
+
+}
